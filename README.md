@@ -1,4 +1,4 @@
-# Data-Visualization
+# Data Visualization
 This animated data visualization with Plotly can be found at https://life-expectation-gdppca-viz.herokuapp.com/.
 
 This animation showing world life expectancy against GDP per capita was inspired by Hans Rosling https://youtu.be/jbkSRLYSojo and Giles McMullen-Klein's youtube video https://youtu.be/oYVLxaxn3Dg.
