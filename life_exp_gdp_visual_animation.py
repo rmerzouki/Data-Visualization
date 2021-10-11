@@ -1,10 +1,9 @@
-#import the package/module
+#import modules
 import plotly.express as px
 import streamlit as st
 
-#import the data available in this package
+#import the data available in plotly.express
 gapminder_df = px.data.gapminder()
-
 
 animation_title = '<p style="font-family:Arial Bold; color:royalblue; font-size: 30px;"> Animated Data Visualization</p>'
 sub_title1 = '<p style="font-family:Arial Bold Italic; color:royalblue; font-size: 20px;">This animation shows world life expectancy and wealth (GDP per capita) evolution from 1952 to 2007</p>'
@@ -15,10 +14,8 @@ st.markdown(animation_title, unsafe_allow_html=True)
 st.markdown(sub_title1, unsafe_allow_html=True)
 st.markdown(sub_title2, unsafe_allow_html=True)
 st.markdown(sub_title3, unsafe_allow_html=True)
-#st.write('--------')
 
-
-# We want to animate this year by year basis
+# Animation year by year basis
 
 animation = px.scatter(data_frame=gapminder_df,
           x= 'gdpPercap',
