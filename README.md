@@ -7,6 +7,6 @@ The aim of my approach is on the one hand to share this visualization with as ma
 Those who want to know more about the code and files that allowed the deployment of the application can refer to my GitHub repository: https://github.com/rmerzouki/Data-Visualization.
 
 References: 
-[1]  Hans Rosling https://youtu.be/jbkSRLYSojo
-[2]  Giles McMullen-Klein's youtube video https://youtu.be/oYVLxaxn3Dg
+* [1]  Hans Rosling https://youtu.be/jbkSRLYSojo
+* [2]  Giles McMullen-Klein's youtube video https://youtu.be/oYVLxaxn3Dg
 
