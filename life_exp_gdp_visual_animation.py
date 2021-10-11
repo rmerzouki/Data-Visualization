@@ -26,11 +26,10 @@ animation = px.scatter(data_frame=gapminder_df,
           labels = {'gdpPercap': 'Wealth', 
                    'lifeExp' : 'Life expectancy'},
           log_x = True,
-          range_y = [20,90],
+          range_y = [20,95],
           hover_name = 'country',
           animation_frame='year',
-          height=650,
-          width=1200,             
+          height=650,          
           size_max=100)
 
 st.plotly_chart(animation, use_container_width=True)
